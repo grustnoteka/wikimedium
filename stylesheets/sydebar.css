@@ -7,6 +7,7 @@ nav {
   box-sizing: border-box;
   opacity: .1;
   transition: all .8s ease;
+
 }
 nav:hover{
   opacity: 1;
@@ -15,18 +16,30 @@ nav p {
   margin: 0;
   font-weight: bold;
   font-size: 14px;
+  line-height: 15px;
 }
 nav a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 10px;
+    line-height: 20px;
+    font-weight: bold;
+
 }
 nav ul{
   list-style-type: none;
+    line-height: 20px;
+    font-weight: bold;
+
 }
 nav li {
   margin: 10px 0 ;
+  line-height: 8px;
+  font-weight: bold;
+
 }
 nav ul > ul {
   margin-left: 10px;
   color: #777;
+  line-height: 20px;
+  font-weight: bold;
 }
