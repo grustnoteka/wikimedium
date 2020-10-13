@@ -5,3 +5,31 @@ a { color: inherit;
 article
 h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
 }
+.menubar {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff; */
+  display: flex;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+padding: 0 20px;
+border-bottom: 1px solid #aaa;
+box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+}
+a { color: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+.menubar a {
+  height: 20px;
+  text-decoration: none;
+  color: #aaa;
+}
+.menubar img {
+  height: 80%;
+  width: auto;
+}
